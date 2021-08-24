@@ -154,6 +154,9 @@ include vendor/evolution/config/branding.mk
 # OTA
 include vendor/evolution/config/ota.mk
 
+# Now Playing
+$(call inherit-product, vendor/evolution/config/pixel.mk)
+
 # Pixel Style
 include vendor/pixelstyle/config.mk
 
